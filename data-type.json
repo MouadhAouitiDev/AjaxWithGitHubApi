@@ -1,0 +1,45 @@
+{
+    "username" : "mouadh",
+    "country" : "Tunisia",
+    "skills" :[
+        [ 
+            "HTML",
+            "Pugjs",
+            "Haml"
+        ]
+        [
+            "css",
+            "sass",
+            "less"
+        ],
+        [
+            "js",
+            "babel"
+        ] 
+    ],
+    "SkillsProgress" : [
+        {
+        "html": "60%",
+        "Pugjs":"50%"
+        },
+        {
+        "Css": "80%",
+        "sass":"60%"
+      }
+    
+    
+    ],
+    "adresses" :{
+        "sbeitla" : "Cité el fateh",
+        "sousse" : "Jawhra",
+        "tunis" : "Cité el khadhra",
+        "germany":[
+            "Munich",
+            "Berlin",
+            "three"
+        ]
+    },
+    "age" : 27,
+    "working" : true,
+    "identity":null
+}

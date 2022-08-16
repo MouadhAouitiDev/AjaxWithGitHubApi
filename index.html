@@ -1,0 +1,28 @@
+<html>
+    <head>
+    </head>
+    <body>
+            <div id="name">
+            </div> 
+         
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+        <script>
+
+           $(function (){ 
+            $.ajax({ 
+                url:'https://api.github.com/users/MouadhAouitiDev/repos',
+                dataType:'json',
+                cache: false,
+                success:function(data, status){
+                    $.each(data, function(index){
+                        $("#name").append("<div>" + data[index].owner.login + "</div>");
+                    });
+                },
+                error:function(xhr, textStatus, err){
+
+                }
+            });
+           });
+        </script>
+    </body>
+</html>
